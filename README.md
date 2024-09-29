@@ -1,1 +1,1 @@
-Here I'm learning React by making a simple todo-list
+Here I'm learning React by making different things
