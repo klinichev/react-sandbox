@@ -1,3 +1,5 @@
+import Toggle from '../toggle/Toggle.js';
+
 import { Nav, Title } from './styles.js';
 
 export default function Header() {
@@ -7,6 +9,7 @@ export default function Header() {
         <>
             <Nav>
                 <Title>{headerLine}</Title>
+                <Toggle></Toggle>
             </Nav>
         </>
     );

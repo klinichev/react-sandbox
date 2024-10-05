@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 
 import CheckList from './components/check-list/CheckList.js';
@@ -6,6 +7,8 @@ import SimpleForm from './components/simple-form/SimpleForm.js';
 import Header from './components/header/Header.js';
 import Img from './components/img/Img.js';
 import * as mutations from './api/Tasks.js';
+
+import { keepTheme } from './Themes.js';
 
 import { HorizontalContainer } from './styles.js';
 
@@ -34,6 +37,10 @@ function AppLoader() {
 function Todo({ data }) {
   const subTitle = 'Чего-то не хватает? Давайте пополним мой список дел!';
   const imageSource = '/img/portrait.jpg';
+
+  useEffect(() => {
+    keepTheme();
+  })
 
   return (
     <div>

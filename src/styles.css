@@ -54,5 +54,22 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  background-color: var(--background-primary);
+  color: var(--text-primary);
 }
 
+.theme-light {
+  --background-primary: #fff;
+  --text-primary: #2c2c2c;
+  --text-secondary: #fff;
+  --button-primary-enabled: #22a;
+  --button-primary-hover: #008;
+}
+
+.theme-dark {
+  --background-primary: #2c2c2c;
+  --text-primary: #fff;
+  --text-secondary: #2c2c2c;
+  --button-primary-enabled: #22a;
+  --button-primary-hover: #008;
+}
