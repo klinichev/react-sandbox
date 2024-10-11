@@ -6,6 +6,7 @@ import Dialog from './components/dialog/Dialog.js';
 import SimpleForm from './components/simple-form/SimpleForm.js';
 import Header from './components/header/Header.js';
 import Img from './components/img/Img.js';
+import FeedbackForm from './components/feedback-form/FeedbackForm.js';
 import * as mutations from './api/Tasks.js';
 
 import { keepTheme } from './Themes.js';
@@ -56,6 +57,9 @@ function Todo({ data }) {
             <Dialog Content={SimpleForm} />
           </div>
         </HorizontalContainer>
+      </div>
+      <div>
+        <FeedbackForm />
       </div>
     </div>
   );

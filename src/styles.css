@@ -60,6 +60,7 @@ body {
 
 .theme-light {
   --background-primary: #fff;
+  --background-primary-weak: rgba(44, 44, 44, 0.1);
   --text-primary: #2c2c2c;
   --text-secondary: #fff;
   --button-primary-enabled: #22a;
@@ -68,6 +69,7 @@ body {
 
 .theme-dark {
   --background-primary: #2c2c2c;
+  --background-primary-weak: rgba(255, 255, 255, 0.1);
   --text-primary: #fff;
   --text-secondary: #2c2c2c;
   --button-primary-enabled: #22a;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ToggleContainer = styled.div`
-  & .switch {
+  & label {
       position: relative;
       display: inline-block;
       width: 60px;
@@ -13,7 +13,7 @@ export const ToggleContainer = styled.div`
           height: 0;
       }
 
-      & .slider {
+      & span {
           position: absolute;
           top: 0;
           right: 0;
@@ -35,7 +35,7 @@ export const ToggleContainer = styled.div`
           }
       }
 
-      & input:checked + .slider:before {
+      & input:checked + span:before {
         transform: translateX(20px);
       }
   }

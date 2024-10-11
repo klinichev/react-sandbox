@@ -27,9 +27,9 @@ export default function Toggle() {
 
     return (
         <ToggleContainer>
-            <label class="switch">
+            <label>
                 <input type="checkbox" onClick={handleOnClick} />
-                <span class="slider"></span>
+                <span></span>
             </label>
         </ToggleContainer>
     )
